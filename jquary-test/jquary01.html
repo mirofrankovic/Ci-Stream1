@@ -3,29 +3,32 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
-$(document).ready(function(){
-    $("button").click(function(){
-        $("p").toggleClass("important blue");
+    $(document).ready(function () {
+        $("button").click(function () {
+            $("p").toggleClass("important blue");
+        });
     });
-});
 </script>
 <style>
-    .important{
+    .important {
         background-color: yellowgreen;
     }
-    .blue{
-        color:blue;
+
+    .blue {
+        color: blue;
     }
 </style>
 </head>
+
 <body>
 
-<h2>This is a heading</h2>
+    <h2>This is a heading</h2>
 
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
 
-<button>Toggle class</button>
+    <button>Toggle class</button>
 
 </body>
+
 </html>

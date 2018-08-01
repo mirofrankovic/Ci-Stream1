@@ -1,22 +1,15 @@
-ul {
-    list-style-type:none;
-    margin:0;
-    padding:0;
-    position: absolute;
+.navbar-brand {
+    padding: 0px;
 }
-li {
-    display:inline-block;
-    float: left;
-    margin-right: 1px;
+.navbar-brand>img {
+    height: 100%;
+    padding: 15px;
+    width: auto;
 }
-li a {
-    display:block;
-    min-width:140px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #fff;
-    background: #2f3036;
-    text-decoration: none;
+.example5 .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.example5 .navbar-brand>img {
+    padding: 7px 14px;
 }
